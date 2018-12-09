@@ -1,0 +1,8 @@
+# www.robotstxt.org/
+
+# 
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow:

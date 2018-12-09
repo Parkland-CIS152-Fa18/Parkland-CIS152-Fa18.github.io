@@ -13,3 +13,11 @@
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+
+Main developer: Kendrick Newlin
+
+Hearthstone website and heavy inspiration source: https://playhearthstone.com by Blizzard Entertainment.
+
+Carousel slider made by malsup: http://jquery.malsup.com/cycle2/
+
+Form validation made using jqueryvalidator: https://jqueryvalidation.org/

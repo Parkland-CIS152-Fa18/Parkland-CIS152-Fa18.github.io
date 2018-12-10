@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donut Delights</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body> <!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="locationandcontact.html">Location and Contact Us</a></li>
+    </ul>
+  </div>
+    
+    
+<div class="header">
+    
+        <img src="images/NEWLOGO.png" alt="logo">
+        <h1>Donut Delights</h1>
+        <p><i>"The finest breakfast treats and coffees since 1971"</i></p>
+    <div class="socials">
+        <a href="https://www.twitter.com" class="icons"> <img src="images/Twitter.png" alt="twitter"> </a>
+        <a href="https://www.google.com" class="icons"> <img src="images/google.png" alt="Google+"> </a>
+        <a href="https://www.facebook.com" class="icons"> <img src="images/facebook.png" alt="facebook"> </a>
+        <a href="https://www.instagram.com" class="icons"> <img src="images/instagram.png" alt="instagram"> </a>
+    </div>
+ </div>
+    
+    
+    <div class="flex-container">
+  <div> <img src="images/vetAd.gif" alt="vetsAdSmall" width="220" height="220"></div>
+  <div> <img src="images/pinkdonut.jpg" alt="pinkdonut"> </div>
+  <div> <iframe src="https://www.youtube.com/embed/aWMjUQFEGd0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>  
+</div>
+
+<div class="middle-flex">
+    <div>Donut Delights has been serving C-U with the highest quality donuts and coffees since 1971. Nestled in downtown Urbana,   Donut Delights has become a haven for "Gotta have it" breakfast treats. Our donuts are baked fresh twice daily and our coffee's brewed every fifteen minutes. If you have never been to C-U's hidden gem, you are missing out.   </div>
+    </div>
+<!--
+    This is the form
+                    !-->
+<div class="newsletter-flex">
+    <div>
+        
+    <form action="https://formspree.io/Keegster11@gmail.com" method="POST" target="_blank">
+  <div class="newsletter-flex">
+    <h2>Subscribe to our newsletter for the latest on our seasonal offerings and special events!</h2>
+  </div>
+  <div class="newsletter-flex">
+     
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+  <div class="newsletter-flex">
+    <input type="submit" value="Submit">
+    
+  </div>
+</form>
+        </div>
+    <div>
+    <h1>Joke Of the Day</h1>
+        <h3>What kind of donuts can fly?  A plain one!</h3>
+    </div>
+  </div>
+
+    
+    
+<div class="footer">
+    <h1>&copy;2018 Donut Delights</h1>
+</div>
+    
+    
+    
+<!-- Google Analytics: UA-130412132-1 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130412132-1');
+</script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+@font-face {
+    font-family: HeadNStuff;
+    src: url("font/BRLNSDB.TTF")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #a67b5b;
+}
+
+/* The header */
+
+.header {
+    z-index: 0;
+    padding: 7%;
+    text-align: center;
+    background-image:  url(images/index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white; 
+}
+
+/* This is the logo!!!! */
+
+.header img {
+    position: relative;
+    top: -25px;
+    margin: -30px;
+    padding: 20px;
+
+    
+    
+}
+
+/* The Font in the heading */
+
+.header h1 {
+    position: relative;
+    font-size: 50px;
+    font-family: HeadNStuff;
+    top: -25px;
+}
+
+.header p {
+    position: relative;
+    margin: -20px;
+    font-family: HeadNStuff;
+    font-size: 22px;
+    top: -23px;
+}
+
+.socials  {
+    position: relative;
+    clear: both;
+    margin:0px;
+    border: 0px;
+    top: 70px; 
+}
+
+.icons{
+    display:inline-block;
+    width: 75px; 
+    height: 75px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #a67b5b;
+}
+
+.flex-container > div {
+  width: 360px;
+  margin: 133px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.flex-container > div > img {
+    width: 360px;
+    height: 320px;
+}
+
+.flex-container > div > iframe {
+    border: none;
+    width: 360px;
+    height: 320px;
+}
+
+.middle-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-flex > div {
+    margin: -40px;
+    width: 89%;
+    height: 210px;
+    font-size: 39px;
+    font-family: HeadNStuff;
+    text-align: center;
+    color: white;
+    background-color: #7e5d45;
+    padding: 10px;
+}
+
+.newsletter-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-flex > div {
+  background-color: #7e5d45;
+  width: 700px;
+  height: 270px;
+  margin: 106px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.newsletter-flex > div h2 {
+    text-align: center;
+    color: white;
+    font-family: HeadnStuff;
+    margin-left: 2px;
+    margin-right: 2px;
+    line-height: 50px;
+    padding: 3px;
+    font-size: 25px;
+}
+
+.newsletter-flex > div h1 {
+    text-align: center;
+    color: white;
+    font-family: HeadnStuff;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.newsletter-flex > div h3 {
+    text-align: center;
+    color: white;
+    font-family: HeadnStuff;
+    line-height: 100px;
+    padding: 8px;
+    font-size: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    height: 27px;
+    width: 100%;
+    clear: both;
+    text-align: center ;
+}
+
+.footer h1 {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: -1px;
+    padding: 6px;
+    color: white;
+    font-family: HeadNStuff;
+    justify-content: center;
+    background-color: #7e5d45;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+
+/* This is the hamburger Menu
+ *
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ * Keegan Davis customized and corrected   * potential errors in the code to make      * sure *it works correctly. There were a   * few errors when copied, but are now     * fixed
+ *
+ */
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 329px;
+  margin: -80px 8px 0px -53px;
+  padding-top: 193px;
+  background: #281200;
+  list-style-type: none;
+    /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 22.7px 0;
+  font-size: 22px;
+  margin-top: -177px;
+  margin-left: 7px;
+  line-height: 229px;
+  color: white;
+  font-family: HeadNStuff;
+}
+
+#menu li a {
+  padding: 22.7px 0;
+  font-size: 22px;
+  color: white;
+  font-family: HeadNStuff;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+/*
+    Form CSS is here 
+                    */
+
+
+input[type=text] {
+    display: flex;
+    width: 100%;
+    padding: 9px;
+    font-family: headNStuff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+input[type=submit] {
+    display: flex;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin-top: 11px;
+    background-color: #4CAF50;
+    font-family: HeadNStuff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}

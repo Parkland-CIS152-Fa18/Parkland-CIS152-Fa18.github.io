@@ -1,0 +1,185 @@
+/* header. needs work on sizing */
+#content {
+    margin: 0 5% 0 5%;
+}
+
+body {
+    background-color:#f6e7ce;
+}
+
+.headimg {
+    display: flex;
+    position: relative;
+    height: 395px;
+    width: 100%;
+    margin-top: -1%;
+
+    
+}
+/* the logo. Needs work */
+.topimg {
+    position: absolute;
+    height: 400px;
+    top: 0;
+    left: 0;
+    padding-top: 3em;
+    padding-left: 5em;
+}
+
+.motto {
+    text-align: center;
+    color: #604a36;
+    font-size: 1.4em;
+}
+/* the navigation */
+a {
+    text-decoration: none;
+    color: #604a36;
+}
+.nav {
+    text-align: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    padding: 10px;
+}
+.nav li:hover a{
+    background: #755638;
+}
+.nav li:hover a{
+    color: white;
+}
+
+
+/* home */
+
+.intro {
+    font-size: 150%;
+    margin-right: 1%;
+}
+
+aside {
+    margin-left: 1%;
+    padding: 1%;
+    width: 30%;
+    float: right;
+    color: white;
+    font-size: 1.1em;
+    float: right;
+    background-color: #755638;
+    text-align: center;
+}
+
+
+/* Used for images separating the sections. this is basically perfect */
+
+.fleximg1 {
+    margin-left: 6%;
+    margin-top: 8%;
+    display: flex;
+    order: 1;
+    justify-content: center;
+
+}
+
+.imgsize {
+    width: 17em;
+    height: 14em;
+    margin-right: auto;
+}
+
+/* menu */
+
+.title {
+    margin-top: 5%;
+    text-align: center;
+    color:#604a36;
+}
+
+/* top sellers. Needs work */
+
+.topSellers {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d8c5ae;
+    width: 100%;
+    font-size: 150%;
+    height: 150px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-90deg);
+    color: #4e463d;
+    padding-top: 2%;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#options {
+    width: 100%;
+    font-size: 150%;
+    padding: 0.5%;
+    background-color: #755638;
+    color: white;
+}
+
+.order {
+    padding-left: 1%;
+}
+
+.choices {
+    color: antiquewhite;
+    padding-left: 5%;
+}
+/* About Us */
+
+.about {
+    font-size: 130%;
+}
+
+/* Contact & Location */
+
+.news {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 100%;
+}
+
+.form {
+    color: white;
+    background-color: #755638;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 4%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.location {
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #f6e7ce;
+}

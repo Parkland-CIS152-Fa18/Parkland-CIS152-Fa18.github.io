@@ -1,0 +1,66 @@
+html{
+    display: block;
+}
+body {
+    margin: 35px;
+    background-color: pink;
+}
+
+h1{
+    font-size:200%;
+}
+#maincontent {
+    display: flex;
+}
+#mainmenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 310px;
+    margin-right: 35px;
+}
+
+p.coffee {
+    font-weight: bold;
+}
+
+#BakeryFire {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+#DonutShelf {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+#Vets {
+    float: left;
+    width: 40%;
+    padding: -6px;
+}
+
+#InsideStore {
+    float: left;
+    position: relative;
+        top: -45px;
+    width: 43%;
+    padding: 50px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input, label{
+    display:block
+}

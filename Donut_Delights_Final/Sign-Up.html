@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="text/css" href="images/minilogo_32Y_icon.ico"
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DONUT DELIGHTS</title>
+	<link rel="icon" href="ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script>
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+  <img src="Donut%20Delights/NEWLOGO.png" alt="Donut_Delights_Logo">
+   <div id=maincontent>
+   <nav>
+   <!-- Tab links -->
+<div class="tab">
+    <div style="padding-bottom: 50px; padding-top: 5px; text-align: center; padding-left: 19px;">
+        <a href="Donuts.html">
+  <button class="tablinks" onclick="openCity(event, 'Donuts')">Donuts</button>
+       </div>
+    
+  <div class="tab">
+      <div style="padding-bottom: 50px; padding-top: 5px; text-align: center; padding-left: 19px;">
+        <a href="Coffee.html"> 
+       <button class="tablinks" onclick="openCity(event, 'Coffee')">Coffee</button>
+            </a>
+          </div>
+      
+    <div class="tab">  
+        <div style="padding-bottom: 50px; padding-top: 5px; text-align: center; padding-left: 19px;">
+        <a href="Specialty%20Drinks.html">  
+  <button class="tablinks" onclick="openCity(event, 'Specialty Drinks')">Specialty Drinks</button>
+            </a>  
+       </div>
+          
+        
+    <div class="tab">   
+        <div style="padding-bottom: 50px; padding-top: 5px; text-align: center; padding-left: 19px;">
+            <a href="About%20Us.html">
+    <button class="tablinks" onclick="openCity(event, 'About Us')">About Us</button>
+        </a>
+       </div>
+        
+    <div class="tab">   
+        <div style="padding-bottom: 50px; padding-top: 5px; text-align: center; padding-left: 19px;">
+            <a href="JoinOurTeam.html">
+    <button class="tablinks" onclick="openCity(event, 'Join Our Team')">Join Our Team</button>
+        </a>
+</div>
+    </nav>
+    <div id=mainmenu>
+        
+ <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Join Our Team</h1>
+      <p><h3>Please fill in this form to become a part of the Donut Delights Family.</h3></p>
+    <hr>
+
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Name" name="Name" required>
+
+    <label for="LastName"><b>Last Name</b></label>
+    <input type="password" placeholder="Last Name" name="Last" required>
+
+    <label for="SSN"><b>Social Security Number</b></label>
+    <input type="SSN" placeholder="XXX-XX-XXXX" name="SSN" required>
+    
+    <label for="MailAddress"><b>Mailing Address</b></label>
+    <input type="SSN" placeholder="Mailing Address" name="SSN" required>
+      
+    <label for="Address"><b>City, State, Zip Code</b></label>
+    <input type="Telephone" placeholder="City, State, Zip Code" name="Telephone" required>
+    
+    <label for="Telephone"><b>Telephone</b></label>
+    <input type="Telephone" placeholder="Telephone" name="Telephone" required>
+      
+    <label for="Age"><b>If you are under 18, please list your age</b></label>
+    <input type="Age" placeholder="XX" name="Age" required>
+    
+    <label for="E-Mail"><b>E-mail</b></label>
+    <input type="Email" placeholder="E-Mail" name="E-Mail" required>
+      
+    <h2>Level of Education</h2>
+    <select>
+    <option value=""></option>
+    <option value="Almost Done with High School">Going through High School</option>
+    <option value="High School Degree">High School Degree</option>
+    <option value="College Degree">College Degree</option>
+    </select>
+     
+    <h2>Military Participation</h2>
+    <select>
+    <option value=""></option>
+    <option value="">Yes</option>
+    <option value="">No</option>
+    </select>
+     
+    <h2>Previous Work Expirience</h2>
+     
+    <select>
+    <option value=""></option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>
+    
+    <label for="Name"><b>If yes, please give a discription on your previous working experiences</b></label>
+    <input type="text" placeholder="Work" name="Work" required>
+
+     
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+        
+</body>
+</html>

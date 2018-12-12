@@ -1,0 +1,83 @@
+body {
+    background-color: #722e0d;
+}
+
+header{
+    text-align: center;
+    color: gold; 
+    font-size: 60px;
+    margin-top:-100px;
+}
+.logo {
+    margin-left: 50px; 
+}
+.display {
+    padding-top: 50px; 
+    
+}
+.image {
+    background-image: url("../images/menuop.png");
+    min-height: 30px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 90%;
+    float: none;
+    }
+
+.container { 
+    width: auto;
+    text-align: center;
+    }
+
+.topnav {
+    overflow: hidden;
+    padding: 20px; 
+    }
+
+.topnav a {
+    display: inline; 
+    color: white;
+    padding:40px; 
+    font-size: 30px;
+    font-weight: bold; 
+    }
+
+.topnav a:hover {
+    background-color: #ddd; 
+    color: black; 
+    }
+nav #current { 
+    color: black; }
+
+h3{
+    margin-left: 500px;
+    margin-top: -400px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.fact{
+    text-align: center;
+    margin-left: 500px; 
+    color: white; 
+    font-size: 15px; 
+}
+
+h2{
+    font-size: 20px; 
+    color: gold; 
+    margin-left: 650px;
+    font-style: italic; 
+}
+
+
+
+.foot p {
+    text-align: center;
+    margin-top: 300px; 
+    font-size: 10px; 
+    font-family: sans-serif; 
+    margin-left: -50px; 
+}

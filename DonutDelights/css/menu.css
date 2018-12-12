@@ -1,0 +1,242 @@
+body{
+    background-image: url(../images/menubackground-100.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    
+        }
+.logo { 
+    margin-left: 50px;
+    }
+
+header {
+    margin-top: -100px; 
+    font-size: 60px; 
+    color: black; 
+    text-align: center;
+    font-weight: bold;
+    grid-area: head;
+    }
+
+
+            /*NAV MENU*/
+.image {
+    background-image: url("../images/menuop.png");
+    min-height: 30px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 90%;
+    float: none;
+    }
+
+.container { 
+    width: auto;
+    text-align: center;
+    }
+
+.topnav {
+    overflow: hidden;
+    padding: 20px; 
+    }
+
+.topnav a {
+    display: inline; 
+    color: white;
+    padding:40px; 
+    font-size: 30px;
+    font-weight: bold; 
+    }
+
+.topnav a:hover {
+    background-color: #ddd; 
+    color: black; 
+    }
+
+
+
+            /*STYLES FOR THE MAIN*/
+h2 {
+    font-size: 20px;
+    padding-top: 40px;
+    grid-area: main;
+    font-size: 25px;
+
+    }
+
+h3{
+   
+    font-size: 25px;
+    margin-top: 100px; 
+    grid-area: main;  
+    align-content: center: 
+    }
+
+#donuts {
+    font-size: 20px;
+    color: white; 
+    margin-left: 50px; 
+    grid-area: main; 
+    display: grid;
+    grid-template: auto / repeat(3, 15%);
+    list-style-type: none; 
+    }
+
+
+
+
+#fancy { 
+    margin-left: 50px;
+    font-size: 20px; 
+    color: white;  
+    grid-area: main; 
+    display: grid; 
+    grid-template: auto / repeat(2, 15%);
+    list-style-type: none; 
+    }
+
+
+
+            /*PRICE LIST*/
+
+
+#baker { 
+    margin-top: -400px;
+    margin-left: 300px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold;
+    color: black;
+    text-align: center; 
+    }
+
+#regular {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: black;
+    text-align: center; 
+    }
+
+#NCY {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    }
+
+#french {
+    margin-top: 100px;
+    margin-left: 300px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: black;
+    text-align: center; 
+    }
+
+            /*DONUT PRICES*/
+
+#price1 {
+    margin-top:-430px;
+    margin-bottom: 90px; 
+    margin-left: 900px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px; 
+}
+
+#price2 {
+    margin-top: -20px;
+    margin-left: 900px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+#price3 {
+    margin-top: 65px; 
+    margin-left: 900px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+#price4{
+    margin-top: 70px;
+    margin-left: 900px; 
+    font-size: 20px; 
+    list-style-type: none; 
+    font-weight: bold; 
+    color: white;
+    text-align: center;
+    background-color: #722e0d;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 100px;  
+    background-color: #722e0d;
+}
+
+
+
+
+
+
+h4 { 
+    font-size: 20px;    
+    font-family: fantasy;
+    text-align: center;
+    grid-area: footer; 
+    margin-top: 50px;
+    text-align: center;ß
+}
+
+.fresh p {
+    text-align: center; 
+    color: black;
+    font-size: 30px; 
+}
+
+.image .current {
+    color: black;
+}
+
+
+.drinks a {
+    margin-left: 500px; 
+    font-size: 60px;
+    color: white; 
+}
+
+footer p {
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 10px; 
+    font-family: sans-serif; 
+}

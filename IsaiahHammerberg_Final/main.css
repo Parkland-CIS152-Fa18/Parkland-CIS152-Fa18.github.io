@@ -1,0 +1,168 @@
+body {
+	background-color: #F5CBA7;
+	font: 20px Bookman Old Style;
+}
+
+#nav_menu ul { list-style-type: none; margin-left: 35px;}
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 5%;
+	display: block;
+	width: 175px;
+	padding: 1em 0em;
+	text-decoration: none;
+	background-color: #B57047;
+	font-weight: bold;
+	color: #F0B27A;
+	border-right: 5px solid  #F5CBA7;
+}
+
+#nav_menu ul li a.lastitem { border-right: none; }
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #F0B27A;
+	color: #5A3A27;
+}
+
+#nav_menu ul li a#current_page {
+	background-color: #F0B27A;
+	color: #5A3A27;
+}
+
+#sidebar1 {
+ 	background-color: #E69D61;
+	margin-top: 7%;
+	width: 100%;
+	height: 1300px;
+	position: absolute;
+}
+
+.bx-wrapper {
+	border: none;
+}
+
+#tagline {
+	font: 24px Bookman Old Style;
+	color:	#5A3A27;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+#main_content {
+	background-color: #F5CBA7;
+	display: block;
+	margin-left: 16%;
+	float: left;
+	/* padding-top: 10px; */
+	width: 850px;
+	height: 760px;
+
+}
+
+.item {
+	width: 850px;
+}
+
+.share_links {
+	float: right;
+	width: 48px;
+	height: 48px;
+}
+
+#hours {
+	float: left;
+	font-weight: bold;
+	color:  #B57047;
+	font: 19px Bookman Old Style;
+/* 	margin-left: 25px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+ */}
+
+#iframe {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	font: 12px Bookman Old Style;
+	text-align: center;
+	font-weight: bold;
+	margin-left: -35px;
+	margin-top: 15px;
+}
+
+#factoid {
+	float: left;
+	font: 18px Bookman Old Style;
+	color: #B57047;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+#menu_section {
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+
+#menu_section img {
+	width: 220px;
+	height: 170px;
+	float: left;
+}
+
+.menu_item {
+	margin-left: 235px;
+	display: block;
+	float: relative;
+	font-weight: bold;
+	font-size: 200%;
+	color: #5A3A27;
+}
+
+.menu_details {
+	margin-left: 235px;
+	display: block;
+	float: relative;
+}
+
+
+#email_form_content {
+	margin-left: 25px;
+	margin-right: 10px;
+	float: left;
+	width: 350px;
+	height: 400px;
+}
+
+#map {
+	margin-top: 75px;
+	margin-left: 15px;
+}
+
+#contact_info {
+	margin-left: 375px;
+	margin-right: 5px;
+	margin-top: 25px;
+}
+
+.contact_detail {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+#about_video {
+}

@@ -1,0 +1,68 @@
+body{
+    background-color: lightsalmon;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    background-color: whitesmoke;
+}
+h3{
+    background-color: whitesmoke;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+h4{
+    width: 175px;
+    background-color: whitesmoke
+}
+h5{
+    background-color: whitesmoke;
+}
+footer{
+   text-align: left;
+   background-color: darkgray;
+   position:fixed;
+   bottom:0;
+   width: 100%;
+}
+.nav{
+    background-color: darkgray;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    color: #252526;
+    display:inline-block;
+    padding:10px;
+}
+.nav a.active{
+    color: white;
+}
+.Inside{
+    float: right;
+    height: 250px;
+    width: 250px;
+}
+.Family{
+    float: right;
+    height: 150px;
+    width: 250px;
+}
+.Logo{
+    position: inherit;
+    float: left;
+    height: 100px;
+    width: 100px;
+}

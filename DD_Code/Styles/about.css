@@ -1,0 +1,57 @@
+body{
+    background-color: lightsalmon;
+}
+h3{
+    font-size: 20px;
+    text-align: left;
+    height: auto;
+    width: 600px;
+    background-color: whitesmoke;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    height: auto;
+    width: 600px;
+    background-color: whitesmoke;
+}
+footer{
+   text-align: left;
+   background-color: darkgray;
+   position:fixed;
+   bottom:0;
+   width: 100%;
+}
+.nav{
+    background-color: darkgray;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    color: #252526;
+    display:inline-block;
+    padding:10px;
+}
+.nav a.active{
+    color: white;
+}
+.Logo{
+    position: inherit;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.Fire{
+    float: right;
+    margin: 0;
+    height: auto;
+    width: 400px;
+}
